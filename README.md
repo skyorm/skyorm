@@ -2,6 +2,7 @@
 
 [![GoDoc](https://godoc.org/github.com/skyorm/skyorm?status.svg)](http://godoc.org/github.com/skyorm/skyorm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/skyorm/skyorm)](https://goreportcard.com/report/github.com/skyorm/skyorm)
+[![test](https://github.com/skyorm/skyorm/actions/workflows/go_test.yml/badge.svg)](https://github.com/skyorm/skyorm/actions/workflows/go_test.yml)
 
 Extremely powerful and developer friendly ORM for go.
 

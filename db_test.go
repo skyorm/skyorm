@@ -1,10 +1,10 @@
 package skyorm
 
 import (
-	`context`
-	`errors`
-	`reflect`
-	`testing`
+	"context"
+	"errors"
+	"reflect"
+	"testing"
 )
 
 func TestNewDB(t *testing.T) {

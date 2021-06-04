@@ -1,8 +1,8 @@
 package skyorm
 
 import (
-	`reflect`
-	`testing`
+	"reflect"
+	"testing"
 )
 
 func TestNewVal(t *testing.T) {
@@ -95,19 +95,19 @@ func Test_vl_Val(t *testing.T) {
 		want   interface{}
 	}{
 		{
-			name: "nil",
+			name:   "nil",
 			fields: fields{p1, nil},
-			want:nil,
+			want:   nil,
 		},
 		{
-			name: "string",
+			name:   "string",
 			fields: fields{p1, "string"},
-			want:"string",
+			want:   "string",
 		},
 		{
-			name: "int",
+			name:   "int",
 			fields: fields{p1, 1},
-			want:1,
+			want:   1,
 		},
 	}
 	for _, tt := range tests {

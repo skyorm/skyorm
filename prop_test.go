@@ -1,8 +1,8 @@
 package skyorm
 
 import (
-	`reflect`
-	`testing`
+	"reflect"
+	"testing"
 )
 
 func TestNew(t *testing.T) {

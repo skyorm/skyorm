@@ -1,8 +1,8 @@
 package skyorm
 
 import (
-	`reflect`
-	`testing`
+	"reflect"
+	"testing"
 )
 
 func TestNewStore(t *testing.T) {
@@ -265,4 +265,3 @@ var (
 		NewProp("id", "int", true),
 		NewProp("v", "string", false))
 )
-
